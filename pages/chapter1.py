@@ -88,7 +88,7 @@ with error:
     st.code('st.error("Your error message")')
 image = st.expander('st.image')
 with image:
-    st.image(r"C:\Users\chand\Downloads\streamlit logo.jpg")
+    st.image(r"image\streamlit logo.jpg")
     st.text("Used to show an image in the web app")
     st.code('st.image("image location in computer or url of image")')
     st.write("""This should be noted that in windows path there are various hidden codes like "/t" for tab '/n' for new line. 
@@ -103,7 +103,7 @@ st.divider()
 st.text("")
 
 styled_text(text="goto",color='white',size=20,font_family="times new roman")
-st.image(r"C:\Users\chand\Downloads\chapter2 thumbnail.png",width=150)
+st.image(r"image\chapter2 thumbnail.png",width=150)
 if st.button("chapter2"):
     st.switch_page("pages/chapter2.py")
 

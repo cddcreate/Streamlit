@@ -141,7 +141,8 @@ with expand4:
     st.write("Example--")
     uploaded_file = st.file_uploader("Please upload your file")
     if uploaded_file:
-        st.image(uploaded_file)
+        if st.toggle("Is uploaded file a image/gif"):
+            st.image(uploaded_file)
     st.write("")
     st.write("")
 
@@ -154,7 +155,7 @@ with expand4:
 expand5 = st.expander("Advance Option")
 with expand5:
     styled_text(text="Kindly wait this part is being prepared",font_family="times new roman",size=40,color='Yellow')
-    st.image(r"C:\Users\chand\Downloads\please wait3.gif")
+    st.image(r"image\please wait3.gif")
     
 
 
