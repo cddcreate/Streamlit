@@ -4,7 +4,7 @@ from utils import styled_text,set_background_image,set_background_color
 styled_text(text="Streamlit Tutorial" ,size=65,color='White',bold=True,font_family='Times new roman')
 
 st.subheader("Introduction")
-st.image(r"image\Why-Should-You-Learn-Streamlit-in-2024.png")
+st.image(r"image/Why-Should-You-Learn-Streamlit-in-2024.png")
 st.write('''Streamlit is an open-source Python library that simplifies the creation and sharing of custom web applications, 
 particularly for machine learning and data science projects. 
 It allows users to transform Python scripts into interactive web apps with minimal effort, 
@@ -83,12 +83,12 @@ st.divider()
 st.write('')
 chapter1,chapter2,chapter3 = st.columns(3)
 with chapter1:
-    st.image(r"image\chapter1 thumbnail.png")
+    st.image(r"image/chapter1 thumbnail.png")
     chap1= st.button('Chapter1')
     if chap1:
         st.switch_page("pages/chapter1.py")
 with chapter2:
-    st.image(r"image\chapter2 thumbnail.png")
+    st.image(r"image/chapter2 thumbnail.png")
     chap2 = st.button('chapter2')
     if chap2:
         st.switch_page('pages/chapter2.py')

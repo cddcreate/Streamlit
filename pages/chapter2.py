@@ -155,7 +155,7 @@ with expand4:
 expand5 = st.expander("Advance Option")
 with expand5:
     styled_text(text="Kindly wait this part is being prepared",font_family="times new roman",size=40,color='Yellow')
-    st.image(r"image\please wait3.gif")
+    st.image(r"image/please wait3.gif")
     
 
 
